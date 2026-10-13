@@ -1,0 +1,28 @@
+{
+  "name": "cip-ai-chat",
+  "label": "CIP AI Scenario Engine",
+  "type": "widget",
+  "version": "1.0.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "useMapWidget": true,
+  "useDataSources": true,
+  "hasSettingUI": true,
+  "exbVersion": "1.21.0",
+  "author": "BETA Group, Inc.",
+  "description": "Natural language AI prompt interface for CIP scenario modeling and spatial filtering.",
+  "copyright": "",
+  "license": "",
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 360,
+    "height": 500
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
