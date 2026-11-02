@@ -1,0 +1,27 @@
+{
+  "name": "cip-ai-universal",
+  "label": "CIP AI Scenario Engine",
+  "type": "widget",
+  "version": "1.0.1",
+  "exbVersion": "1.21.0",
+  "author": "BETA Group, Inc.",
+  "description": "Natural language AI prompt interface for CIP scenario modeling and spatial filtering",
+  "copyright": "",
+  "license": "",
+  "properties": {
+    "useMapWidget": true,
+    "useDataSources": true,
+    "hasSetting": true,
+    "hasConfig": false
+  },
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 360,
+    "height": 500
+  }
+}
