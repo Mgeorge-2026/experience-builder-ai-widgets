@@ -2292,11 +2292,11 @@
           "widgetId": "widget_255",
           "bbox": {
             "left": "0.0%",
-            "right": "80.6%",
-            "top": "46.3%",
-            "bottom": "0.0%",
-            "width": "19.4%",
-            "height": "53.7%"
+            "right": "84.7%",
+            "top": "53.6%",
+            "bottom": "-0.0%",
+            "width": "15.3%",
+            "height": "46.4%"
           },
           "setting": {
             "autoProps": {
@@ -3952,7 +3952,7 @@
           "color": ""
         },
         "enableSelect": true,
-        "selectMode": "SINGLE",
+        "selectMode": "MULTIPLE",
         "enableRefresh": true,
         "enableDelete": false,
         "enableShowHideColumn": true,
@@ -3975,8 +3975,6 @@
                   "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
                   "rootDataSourceId": "dataSource_8",
                   "fields": [
-                    "OBJECTID",
-                    "GIS_ID",
                     "StreetName",
                     "StreetSegment",
                     "FromStreet",
@@ -3998,28 +3996,7 @@
                     "Current_RSR",
                     "Treatment_Type",
                     "PavementType",
-                    "Repair_Methodology",
-                    "CIP_RepairCost",
-                    "CIP_ContingencyCost",
-                    "CIP_SidewalkCost",
-                    "CIP_SupplementalCost",
-                    "CIP_PoliceCost",
-                    "CIP_TotalCost",
-                    "CIP_UnitCost",
-                    "CIP_Treatment_Year",
-                    "CIP_Treatment_Type",
-                    "ContingencyCost",
-                    "SidewalkCost",
-                    "SupplementalCost",
-                    "PoliceCost",
-                    "Projected_Depreciating_Cost",
-                    "Depreciating_Year",
-                    "RSR_Year1",
-                    "RSR_Year2",
-                    "RSR_Year3",
-                    "RSR_Year4",
-                    "RSR_Year5",
-                    "Projected_RSR"
+                    "Repair_Methodology"
                   ]
                 },
                 "allFields": [
@@ -4597,37 +4574,6 @@
                 ],
                 "tableFields": [
                   {
-                    "jimuName": "OBJECTID",
-                    "name": "OBJECTID",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeOID",
-                    "alias": "OBJECTID",
-                    "fieldFormat": {
-                      "type": "number",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": false,
-                    "editable": false,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "GIS_ID",
-                    "name": "GIS_ID",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeInteger",
-                    "alias": "GIS_ID",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 0,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
                     "jimuName": "StreetName",
                     "name": "StreetName",
                     "type": "STRING",
@@ -4699,7 +4645,7 @@
                     },
                     "editAuthority": true,
                     "editable": true,
-                    "visible": false
+                    "visible": true
                   },
                   {
                     "jimuName": "Width",
@@ -4902,324 +4848,6 @@
                     "editAuthority": true,
                     "editable": true,
                     "visible": true
-                  },
-                  {
-                    "jimuName": "CIP_RepairCost",
-                    "name": "CIP_RepairCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Repair Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_ContingencyCost",
-                    "name": "CIP_ContingencyCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Contingency Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_SidewalkCost",
-                    "name": "CIP_SidewalkCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Sidewalk Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_SupplementalCost",
-                    "name": "CIP_SupplementalCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Supplemental Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_PoliceCost",
-                    "name": "CIP_PoliceCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Police Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_TotalCost",
-                    "name": "CIP_TotalCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Total Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_UnitCost",
-                    "name": "CIP_UnitCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "CIP Unit Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_Treatment_Year",
-                    "name": "CIP_Treatment_Year",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "CIP Treatment Year",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "CIP_Treatment_Type",
-                    "name": "CIP_Treatment_Type",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "CIP Treatment Type",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "ContingencyCost",
-                    "name": "ContingencyCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Contingency Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "SidewalkCost",
-                    "name": "SidewalkCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Sidewalk Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "SupplementalCost",
-                    "name": "SupplementalCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Supplemental Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "PoliceCost",
-                    "name": "PoliceCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Police Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "Projected_Depreciating_Cost",
-                    "name": "Projected_Depreciating_Cost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Projected Depreciating Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "Depreciating_Year",
-                    "name": "Depreciating_Year",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Depreciating Year",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR_Year1",
-                    "name": "RSR_Year1",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2027 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR_Year2",
-                    "name": "RSR_Year2",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2028 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR_Year3",
-                    "name": "RSR_Year3",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2029 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR_Year4",
-                    "name": "RSR_Year4",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2030 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR_Year5",
-                    "name": "RSR_Year5",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2031 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "Projected_RSR",
-                    "name": "Projected_RSR",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Projected RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
                   }
                 ],
                 "overrideGeneralSettings": false,
@@ -5250,12 +4878,14 @@
                   "textAlign": "start"
                 },
                 "layerHonorMode": "CUSTOM",
-                "frozenFields": []
+                "frozenFields": [],
+                "searchHint": "Street Name"
               }
             ]
           }
         },
-        "enableHighlightOnHover": false
+        "enableHighlightOnHover": false,
+        "editMode": "MULTIPLE"
       },
       "id": "widget_13",
       "useMapWidgetIds": [
@@ -5269,8 +4899,6 @@
           "rootDataSourceId": "dataSource_8",
           "useFieldsInPopupInfo": false,
           "fields": [
-            "OBJECTID",
-            "GIS_ID",
             "StreetName",
             "StreetSegment",
             "FromStreet",
@@ -5292,28 +4920,7 @@
             "Current_RSR",
             "Treatment_Type",
             "PavementType",
-            "Repair_Methodology",
-            "CIP_RepairCost",
-            "CIP_ContingencyCost",
-            "CIP_SidewalkCost",
-            "CIP_SupplementalCost",
-            "CIP_PoliceCost",
-            "CIP_TotalCost",
-            "CIP_UnitCost",
-            "CIP_Treatment_Year",
-            "CIP_Treatment_Type",
-            "ContingencyCost",
-            "SidewalkCost",
-            "SupplementalCost",
-            "PoliceCost",
-            "Projected_Depreciating_Cost",
-            "Depreciating_Year",
-            "RSR_Year1",
-            "RSR_Year2",
-            "RSR_Year3",
-            "RSR_Year4",
-            "RSR_Year5",
-            "Projected_RSR"
+            "Repair_Methodology"
           ]
         }
       ],
@@ -6981,7 +6588,7 @@
           "color": ""
         },
         "enableSelect": true,
-        "selectMode": "SINGLE",
+        "selectMode": "MULTIPLE",
         "enableRefresh": true,
         "enableDelete": false,
         "enableShowHideColumn": true,
@@ -7010,6 +6617,7 @@
                     "StreetSegment",
                     "FromStreet",
                     "ToStreet",
+                    "Current_RSR",
                     "Length",
                     "Miles",
                     "Width",
@@ -7024,7 +6632,6 @@
                     "Year",
                     "Project",
                     "RSR",
-                    "Current_RSR",
                     "Projected_RSR",
                     "CIP_RepairCost",
                     "CIP_ContingencyCost",
@@ -7034,14 +6641,7 @@
                     "CIP_TotalCost",
                     "CIP_UnitCost",
                     "CIP_Treatment_Year",
-                    "CIP_Treatment_Type",
-                    "Projected_Depreciating_Cost",
-                    "Depreciating_Year",
-                    "RSR_Year1",
-                    "RSR_Year2",
-                    "RSR_Year3",
-                    "RSR_Year4",
-                    "RSR_Year5"
+                    "CIP_Treatment_Type"
                   ]
                 },
                 "allFields": [
@@ -7655,7 +7255,7 @@
                       "style": "decimal",
                       "useGrouping": "never"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": false
                   },
@@ -7665,7 +7265,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "StreetName",
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7675,7 +7275,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "StreetSegment",
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7685,7 +7285,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "FromStreet",
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7695,196 +7295,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "ToStreet",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Length",
-                    "name": "Length",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Length",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Miles",
-                    "name": "Miles",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Miles",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "Width",
-                    "name": "Width",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Width",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "ClassCodeLong",
-                    "name": "ClassCodeLong",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "ClassCodeLong",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "SquareYards",
-                    "name": "SquareYards",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "SquareYards",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "BenefitValue",
-                    "name": "BenefitValue",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "BenefitValue",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "UnitCost",
-                    "name": "UnitCost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "UnitCost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Owner",
-                    "name": "Owner",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Owner",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Accepted",
-                    "name": "Accepted",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Accepted",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "InspectionDate",
-                    "name": "InspectionDate",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "InspectionDate",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "FundingSource",
-                    "name": "FundingSource",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "FundingSource",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Year",
-                    "name": "Year",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Year",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "Project",
-                    "name": "Project",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Project",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": false
-                  },
-                  {
-                    "jimuName": "RSR",
-                    "name": "RSR",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Original RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "maximumFractionDigits": 2,
-                      "minimumFractionDigits": 2,
-                      "style": "decimal",
-                      "useGrouping": "never"
-                    },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7901,7 +7312,7 @@
                       "style": "decimal",
                       "useGrouping": "never"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7917,9 +7328,198 @@
                       "maximumFractionDigits": 2,
                       "useGrouping": "auto"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
+                  },
+                  {
+                    "jimuName": "Length",
+                    "name": "Length",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "Length",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Miles",
+                    "name": "Miles",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "Miles",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Width",
+                    "name": "Width",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "Width",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "ClassCodeLong",
+                    "name": "ClassCodeLong",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "ClassCodeLong",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "SquareYards",
+                    "name": "SquareYards",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "SquareYards",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "BenefitValue",
+                    "name": "BenefitValue",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "BenefitValue",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "UnitCost",
+                    "name": "UnitCost",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "UnitCost",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Owner",
+                    "name": "Owner",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Owner",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Accepted",
+                    "name": "Accepted",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Accepted",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "InspectionDate",
+                    "name": "InspectionDate",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "InspectionDate",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "FundingSource",
+                    "name": "FundingSource",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "FundingSource",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Year",
+                    "name": "Year",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Year",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "Project",
+                    "name": "Project",
+                    "type": "STRING",
+                    "esriType": "esriFieldTypeString",
+                    "alias": "Project",
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": true
+                  },
+                  {
+                    "jimuName": "RSR",
+                    "name": "RSR",
+                    "type": "NUMBER",
+                    "esriType": "esriFieldTypeDouble",
+                    "alias": "Original RSR",
+                    "fieldFormat": {
+                      "type": "number",
+                      "maximumFractionDigits": 2,
+                      "minimumFractionDigits": 2,
+                      "style": "decimal",
+                      "useGrouping": "never"
+                    },
+                    "editAuthority": false,
+                    "editable": true,
+                    "visible": false
                   },
                   {
                     "jimuName": "CIP_RepairCost",
@@ -7934,7 +7534,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7951,7 +7551,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7968,7 +7568,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -7985,7 +7585,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -8002,7 +7602,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -8019,7 +7619,7 @@
                       "style": "decimal",
                       "useGrouping": "always"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -8035,7 +7635,7 @@
                       "maximumFractionDigits": 2,
                       "useGrouping": "auto"
                     },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -8045,7 +7645,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "CIP Treatment Year",
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   },
@@ -8055,113 +7655,7 @@
                     "type": "STRING",
                     "esriType": "esriFieldTypeString",
                     "alias": "CIP Treatment Type",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Projected_Depreciating_Cost",
-                    "name": "Projected_Depreciating_Cost",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "Projected Depreciating Cost",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "Depreciating_Year",
-                    "name": "Depreciating_Year",
-                    "type": "STRING",
-                    "esriType": "esriFieldTypeString",
-                    "alias": "Depreciating Year",
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "RSR_Year1",
-                    "name": "RSR_Year1",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2027 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "RSR_Year2",
-                    "name": "RSR_Year2",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2028 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "RSR_Year3",
-                    "name": "RSR_Year3",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2029 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "RSR_Year4",
-                    "name": "RSR_Year4",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2030 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
-                    "editable": true,
-                    "visible": true
-                  },
-                  {
-                    "jimuName": "RSR_Year5",
-                    "name": "RSR_Year5",
-                    "type": "NUMBER",
-                    "esriType": "esriFieldTypeDouble",
-                    "alias": "2031 Depreciated RSR",
-                    "fieldFormat": {
-                      "type": "number",
-                      "minimumFractionDigits": 0,
-                      "maximumFractionDigits": 2,
-                      "useGrouping": "auto"
-                    },
-                    "editAuthority": true,
+                    "editAuthority": false,
                     "editable": true,
                     "visible": true
                   }
@@ -8194,12 +7688,15 @@
                   "textAlign": "start"
                 },
                 "layerHonorMode": "CUSTOM",
+                "searchHint": "Street Name",
                 "frozenFields": []
               }
             ]
           }
         },
-        "enableHighlightOnHover": false
+        "enableHighlightOnHover": false,
+        "editMode": "MULTIPLE",
+        "description": ""
       },
       "id": "widget_150",
       "useMapWidgetIds": [
@@ -8218,6 +7715,8 @@
             "StreetSegment",
             "FromStreet",
             "ToStreet",
+            "Current_RSR",
+            "Projected_RSR",
             "Length",
             "Miles",
             "Width",
@@ -8232,8 +7731,6 @@
             "Year",
             "Project",
             "RSR",
-            "Current_RSR",
-            "Projected_RSR",
             "CIP_RepairCost",
             "CIP_ContingencyCost",
             "CIP_SidewalkCost",
@@ -8242,14 +7739,7 @@
             "CIP_TotalCost",
             "CIP_UnitCost",
             "CIP_Treatment_Year",
-            "CIP_Treatment_Type",
-            "Projected_Depreciating_Cost",
-            "Depreciating_Year",
-            "RSR_Year1",
-            "RSR_Year2",
-            "RSR_Year3",
-            "RSR_Year4",
-            "RSR_Year5"
+            "CIP_Treatment_Type"
           ]
         }
       ],
@@ -12234,8 +11724,8 @@
                 "alias": "Current RSR",
                 "fieldFormat": {
                   "type": "number",
-                  "maximumFractionDigits": 6,
-                  "minimumFractionDigits": 6,
+                  "maximumFractionDigits": 2,
+                  "minimumFractionDigits": 2,
                   "style": "decimal",
                   "useGrouping": "never"
                 }
@@ -12261,9 +11751,10 @@
                 "alias": "CIP Repair Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12274,9 +11765,10 @@
                 "alias": "CIP Contingency Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12287,9 +11779,10 @@
                 "alias": "CIP Sidewalk Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12300,9 +11793,10 @@
                 "alias": "CIP Supplemental Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12313,9 +11807,10 @@
                 "alias": "CIP Police Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12326,9 +11821,10 @@
                 "alias": "CIP Total Cost",
                 "fieldFormat": {
                   "type": "number",
-                  "minimumFractionDigits": 0,
                   "maximumFractionDigits": 2,
-                  "useGrouping": "auto"
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "always"
                 }
               },
               {
@@ -12357,6 +11853,20 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "CIP Treatment Type"
+              },
+              {
+                "jimuName": "UnitCost",
+                "name": "UnitCost",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "UnitCost",
+                "fieldFormat": {
+                  "type": "number",
+                  "maximumFractionDigits": 2,
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "never"
+                }
               }
             ],
             "groupedFields": [
@@ -12434,6 +11944,23 @@
                 "editable": true
               },
               {
+                "jimuName": "UnitCost",
+                "name": "UnitCost",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "UnitCost",
+                "fieldFormat": {
+                  "type": "number",
+                  "maximumFractionDigits": 2,
+                  "minimumFractionDigits": 2,
+                  "style": "decimal",
+                  "useGrouping": "never"
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": true
+              },
+              {
                 "jimuName": "CIP_UnitCost",
                 "name": "CIP_UnitCost",
                 "type": "NUMBER",
@@ -12445,7 +11972,7 @@
                   "maximumFractionDigits": 2,
                   "useGrouping": "auto"
                 },
-                "editAuthority": false,
+                "editAuthority": true,
                 "subDescription": "",
                 "editable": true
               },
@@ -16844,7 +16371,7 @@
       }
     }
   },
-  "template": "ccf819b7bafd42da8a9c6955cf5be403",
+  "template": "1772aa4ef56344d6a7f63f00dc8a917b",
   "customTheme": {},
   "widgetsManifest": {},
   "views": {},
@@ -17156,12 +16683,6 @@
         }
       ]
     },
-    "messageConfig_8": {
-      "id": "messageConfig_8",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [],
-      "widgetId": "widget_150"
-    },
     "messageConfig_9": {
       "id": "messageConfig_9",
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
@@ -17461,6 +16982,140 @@
         }
       ],
       "widgetId": "widget_246"
+    },
+    "messageConfig_23": {
+      "id": "messageConfig_23",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_147-zoomToFeature-1793979550126",
+          "widgetId": "widget_147",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_150",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+                "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+                "rootDataSourceId": "dataSource_8"
+              }
+            ],
+            "goToInitialMapExtentWhenSelectionCleared": false,
+            "useAnyTriggerData": true
+          },
+          "version": "1.21.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            }
+          ]
+        },
+        {
+          "actionId": "filter-data-record-action-1793979554023",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_150",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.21.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            }
+          ]
+        }
+      ],
+      "widgetId": "widget_150"
+    },
+    "messageConfig_24": {
+      "id": "messageConfig_24",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_6-zoomToFeature-1793979917480",
+          "widgetId": "widget_6",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_13",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+                "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+                "rootDataSourceId": "dataSource_8"
+              }
+            ],
+            "goToInitialMapExtentWhenSelectionCleared": true,
+            "useAnyTriggerData": true
+          },
+          "version": "1.21.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            }
+          ]
+        },
+        {
+          "actionId": "filter-data-record-action-1793979927006",
+          "dataSourceId": null,
+          "sectionId": null,
+          "messageWidgetId": "widget_13",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            },
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.21.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "mainDataSourceId": "dataSource_8-1a02040a791-layer-11",
+              "rootDataSourceId": "dataSource_8"
+            }
+          ]
+        }
+      ],
+      "widgetId": "widget_13"
     }
   },
   "pageStructure": [
@@ -17534,18 +17189,18 @@
       }
     }
   },
-  "publishTimestamp": 1793647438414,
+  "publishTimestamp": 1793984999763,
   "attributes": {
-    "portalUrl": "https://beta-inc.maps.arcgis.com",
+    "portalUrl": "https://BETA-Inc.maps.arcgis.com",
     "isWebTier": false,
     "clientId": "MA01BpplMwTJlb23",
     "express": false,
-    "title": "Lexington, MA Roadway Applications 1 1 1 1",
+    "title": "Lexington, MA Roadway Applications_ai 1",
     "description": "",
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1793373340893,
+  "timestamp": 1793984965681,
   "sharedThemeVariables": {
     "header": {
       "bg": "#17365d",
